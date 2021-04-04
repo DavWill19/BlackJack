@@ -129,3 +129,11 @@ body {
     font-family: 'Bangers', cursive; 
     color: cornsilk !important;   
 }
+@media only screen and (max-width: 580px) {
+ 
+    .animate__animated.animate__backInDown {
+        --animate-duration: .3s;
+        width: 45px;
+        margin: 3px;
+    }
+}
