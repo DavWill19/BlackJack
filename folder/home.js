@@ -25,9 +25,7 @@ document.querySelector("#blackjack-stay-button").addEventListener('click', deale
 document.querySelector("#blackjack-deal-button").addEventListener('click', blackJackDeal);
 
 
-window.addEventListener('load', () => {
-    openSound.play()
-  });
+SetTimeout(openSound.play(), 1000);
 
 
 function blackJackHit() {
